@@ -2,7 +2,6 @@ body {
     margin: 0;
 }
 
-/*einfach mit den Werten rumspielen:*/
 
 section {
     background-color: burlywood;
@@ -11,25 +10,24 @@ section {
     margin: clamp(16px, 2vw, 48px);
     padding: clamp(16px, 2vw, 48px);
     gap: 1%;
-
 }
 
 .clamp1 {
     background-color: lightblue;
     flex: 1;
-    font-size: clamp(1rem, 4vw, 3rem);
+    font-size: clamp(1rem, 2rem, 3rem);
 }
 
 .clamp2 {
     background-color: lightgreen;
     flex: 2;
-    font-size: clamp(1.5rem, 8vw, 4.5rem);
+    font-size: clamp(1.5rem, 3rem, 4.5rem);
 }
 
 .clamp3 {
     background-color: lightcoral;
     flex: 3;
-    font-size: clamp(3rem, 12vw, 6rem);
+    font-size: clamp(3rem, 4.5rem, 6rem);
 }
 
 .clamp1,
